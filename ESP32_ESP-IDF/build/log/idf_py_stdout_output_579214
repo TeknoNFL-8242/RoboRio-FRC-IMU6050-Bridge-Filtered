@@ -1,0 +1,17 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/cppsever/Desktop/ESP32_ESP-IDF/build/bootloader/esp-idf/esptool_py && /home/cppsever/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/cppsever/esp-idf-v5.2.6/components/partition_table/check_sizes.py --offset 0x10000 bootloader 0x1000 /home/cppsever/Desktop/ESP32_ESP-IDF/build/bootloader/bootloader.bin
+Bootloader binary size 0x68c0 bytes. 0x8740 bytes (56%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/example.cpp.obj
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable ESP32_ESP-IDF.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.11.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/cppsever/Desktop/ESP32_ESP-IDF/build/ESP32_ESP-IDF.bin
+[9/9] cd /home/cppsever/Desktop/ESP32_ESP-IDF/build/esp-idf/esptool_py && /home/cppsever/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/cppsever/esp-idf-v5.2.6/components/partition_table/check_sizes.py --offset 0x10000 partition --type app /home/cppsever/Desktop/ESP32_ESP-IDF/build/partition_table/partition-table.bin /home/cppsever/Desktop/ESP32_ESP-IDF/build/ESP32_ESP-IDF.bin
+ESP32_ESP-IDF.bin binary size 0x2f490 bytes. Smallest app partition is 0x100000 bytes. 0xd0b70 bytes (82%) free.

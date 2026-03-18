@@ -1,0 +1,2 @@
+source /home/cppsever/Desktop/ESP32_ESP-IDF/build/gdbinit/symbols
+source /home/cppsever/Desktop/ESP32_ESP-IDF/build/gdbinit/connect

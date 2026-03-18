@@ -1,0 +1,7 @@
+[1/4] cd /home/cppsever/Desktop/ESP32_ESP-IDF/build/esp-idf/esptool_py && /home/cppsever/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/cppsever/esp-idf-v5.2.6/components/partition_table/check_sizes.py --offset 0x10000 partition --type app /home/cppsever/Desktop/ESP32_ESP-IDF/build/partition_table/partition-table.bin /home/cppsever/Desktop/ESP32_ESP-IDF/build/ESP32_ESP-IDF.bin
+ESP32_ESP-IDF.bin binary size 0x2ea60 bytes. Smallest app partition is 0x100000 bytes. 0xd15a0 bytes (82%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/cppsever/Desktop/ESP32_ESP-IDF/build/bootloader/esp-idf/esptool_py && /home/cppsever/.espressif/python_env/idf5.2_py3.12_env/bin/python /home/cppsever/esp-idf-v5.2.6/components/partition_table/check_sizes.py --offset 0x10000 bootloader 0x1000 /home/cppsever/Desktop/ESP32_ESP-IDF/build/bootloader/bootloader.bin
+Bootloader binary size 0x68c0 bytes. 0x8740 bytes (56%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
